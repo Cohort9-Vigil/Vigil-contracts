@@ -1,6 +1,5 @@
-# Vigil-contracts
+# Vigil-Contracts
 Vigil’s contracts are a lending protocol: users deposit up to 3 collateral assets and borrow a stablecoin. They handle interest accrual, hostile tokens, oracle protection, and liquidation of unsafe positions.  Contribution:  It is the source of truth and the rulebook.
-# Vigil Contracts
 
 The on-chain half of **Vigil**, a reorg-safe lending and liquidation network. This package holds the Solidity contracts: the lending protocol itself, the oracle that prices it, and the liquidation machinery that keeps it solvent. The Rust services (Indexer, Risk Engine, Liquidator) watch and act on these contracts from the outside.
 
